@@ -1,0 +1,2 @@
+INDEX VERSION 1.121+D:\SSM\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1470024789.index

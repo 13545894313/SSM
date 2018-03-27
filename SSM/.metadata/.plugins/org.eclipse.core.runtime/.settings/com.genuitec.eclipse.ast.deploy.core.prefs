@@ -1,0 +1,13 @@
+#Fri Mar 02 16:04:33 CST 2018
+tomcat6Server.SSM.shouldOverwrite=false
+tomcat6Server.SSM.deployIsOverProject=false
+tomcat6Server.SSM.IEARProjectName=
+tomcat6Server.SSM.contextRoot=/SSM
+tomcat6Server.SSM.isDeployed=true
+tomcat6Server.SSM.altContextRoot=
+tomcat6Server.SSM.deploymentPath=D\:\\Program Files\\Apache Software Foundation\\Tomcat 6.0\\webapps\\SSM
+eclipse.preferences.version=1
+tomcat6Server.SSM.isExploded=true
+tomcat6Server.SSM.type=WebDeployment
+tomcat6Server.SSM.shouldBackup=false
+tomcat6Server.SSM.isUptoDate=true

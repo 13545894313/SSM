@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.foxconn.dao.blog.IBlogDao" >
+
+	<select id="findBlogs" resultType="java.util.HashMap">
+		select
+			b.id,
+			b.title,
+			b.description,
+			b.category_id as categoryId,
+			b.img,
+			b.create_time as createTime,
+			b.update_time as updateTime,
+			b.musictor,
+			b.musiclink,
+			b.musictitle,
+			b.musicsize,
+			b.musictime,
+			b.hits,
+			b.comments,
+			b.status,
+			b.is_delete as isDelete,
+			b.user_id as userId, 
+			c.name,
+			u.username,
+			u.header_pic
+		from
+			blog b 
+			LEFT JOIN categorp c ON b.category_id = c.id
+			LEFT JOIN user u ON b.user_id=u.id
+			where b.status='1' and is_delete=0
+			ORDER BY b.CREATE_time DESC
+			LIMIT 0,10
+	</select>
+
+		<select id="getBlogById" resultType="java.util.HashMap">
+		select
+			b.id,
+			b.title,
+			b.description,
+			b.category_id as categoryId,
+			b.img,
+			b.create_time as createTime,
+			b.update_time as updateTime,
+			b.musictor,
+			b.musiclink,
+			b.musictitle,
+			b.musicsize,
+			b.musictime,
+			b.hits,
+			b.comments,
+			b.status,
+			b.is_delete as isDelete,
+			b.user_id as userId, 
+			c.name,
+			u.username,
+			u.header_pic
+		from
+			blog b 
+			LEFT JOIN categorp c ON b.category_id = c.id
+			LEFT JOIN user u ON b.user_id=u.id
+			where b.id = #{id}
+	</select>
+
+</mapper>

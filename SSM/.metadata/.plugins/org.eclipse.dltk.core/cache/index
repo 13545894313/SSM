@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="D:/SSM/SSM/WebRoot/resource/js/jquery-1.11.2.min.js" timestamp="1519888855037" lastAccessTime="1520220441243"/>
+  <entries path="D:/SSM/SSM/WebRoot/resource/js/ke_util.js" timestamp="1519888855041" lastAccessTime="1520220441281"/>
+  <entries path="D:/SSM/SSM/WebRoot/resource/js/keke_music.js" timestamp="1519888855038" lastAccessTime="1520220441241"/>
+  <entries path="D:/SSM/SSM/WebRoot/resource/js/keke_play.js" timestamp="1519888855040" lastAccessTime="1520220441207"/>
+</cache:CacheIndex>

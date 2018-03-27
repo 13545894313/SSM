@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.springframework.org/schema/beans" uri="file:///C:/Users/Administrator.PC-20160729CAPM/Downloads/spring-framework-4.2.5.RELEASE-dist/spring-framework-4.2.5.RELEASE/schema/beans/spring-beans-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/aop" uri="file:///C:/Users/Administrator.PC-20160729CAPM/Downloads/spring-framework-4.2.5.RELEASE-dist/spring-framework-4.2.5.RELEASE/schema/aop/spring-aop-3.2.xsd"/>
+</catalog>

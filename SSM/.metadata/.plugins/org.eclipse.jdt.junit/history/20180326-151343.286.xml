@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="ApplicationContextTest" project="SSM" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.ApplicationContextTest" time="3.797">
+    <testcase name="testApplicationContext" classname="com.test.ApplicationContextTest" time="3.797"/>
+  </testsuite>
+</testrun>
